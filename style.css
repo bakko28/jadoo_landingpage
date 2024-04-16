@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+	font-family: 'Google Sans'; 
+    font-weight: 500;
+	src: url(fonts/GoogleSans-Medium.ttf); 
+}
+
+/* fonts {
+    font-family: "Open Sans", sans-serif;
+} */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+    font-family: 'Google Sans';
+    font-size: 17px;
+    color: #212832;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    display: grid;
+    gap: 4px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'header' 'main' 'footer' 'nav';
+    width: 100%;
+    height: 100vh;
+}
+
+
+header {
+    padding: 47px 138px 0px 140px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a:nth-child(1){
+    margin: 0px 55px 0px 222px;
+}
+
+header nav a:nth-child(2){
+    margin-right: 64px;
+}
+
+header nav a:nth-child(3){
+    margin-right: 62px;
+}
+
+header nav a:nth-child(4){
+    margin-right: 80px;
+}
+
+header .loginmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .loginmenu button{
+    font-family: 'Google Sans';
+    font-size: 17px;
+    color: #212832;
+    background-color: transparent;
+    border: none;
+    margin-right: 52px;
+}
+
+header .loginmenu button:nth-child(2){
+    padding: 9px 21px;
+    background-color: transparent;
+    border: 2px #212832 solid;
+    border-radius: 5px;
+    margin-right: 42px;
+}
+
+header .loginmenu .changelanguage button{
+    margin-right: 0px;
+}
+
+header .background {
+    z-index: -2;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    border: 2px #000 solid;
+}
+
+.page1scroll {
+    margin-left: 0px 91px 0px 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1scroll .textbox {
+    width: 43%;
+}
+
+.page1scroll .textbox p {
+    width: 60%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #DF6951;
+    margin-bottom: 24px;
+}
+
+.page1scroll .textbox h2 {
+    width: 73%;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    color: #181E4B;
+    font-size: 84px;
+}
+
+.page1scroll .textbox p:nth-child(3) {
+    width: 42%;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #5E6282;
+    margin-bottom: 34px;
+}
+
+.page1scroll .textbox .btnbox {
+    display: flex;
+    align-items: center;
+}
+
+.page1scroll .textbox .btnbox button{
+    font-family: 'Google Sans';
+    color: #fff; 
+    font-size: 18px;
+    padding: 19px 26px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F1A501;
+    margin-right: 44px;
+}
+
+.page1scroll .textbox .btnbox button:nth-child(2){
+    display: flex;
+    align-items: center;
+    font-family: 'Google Sans';
+    color: #686D77; 
+    font-size: 17px;
+    padding: 0px;
+    background-color:transparent;
+    margin-right: 0px;
+}
+
+.page1scroll .textbox .btnbox button:nth-child(2) span {
+    margin-right: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    background-color: #DF6951; 
+}
+
+
