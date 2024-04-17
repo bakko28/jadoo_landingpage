@@ -6,10 +6,6 @@
 	src: url(fonts/GoogleSans-Medium.ttf); 
 }
 
-/* fonts {
-    font-family: "Open Sans", sans-serif;
-} */
-
 * {
     padding: 0px;
     margin: 0px;
@@ -192,5 +188,273 @@ main {
     color: #fff;
     background-color: #DF6951; 
 }
+
+.categorybox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 97px;
+    margin-bottom: 200px;
+}
+
+.categorybox .headingbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.categorybox .headingbox img {
+    position: relative;
+    left: 530px;
+    display: flex;
+}
+
+.categorybox .headingbox .textbox {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.categorybox .headingbox .textbox p:nth-child(1){
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #5E6282;
+}
+
+.categorybox .headingbox .textbox p:nth-child(2){
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #14183e;
+}
+
+.categorybox .cardbox {
+    display: flex;
+}
+
+.categorybox .cardbox .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorybox .cardbox .card p:nth-child(2){
+    margin-top: 29px;
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1e1d4c;
+}
+
+.categorybox .cardbox .card:nth-child(2) p:nth-child(2){
+    position: relative;
+    bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1e1d4c;
+}
+
+.categorybox .cardbox .card:nth-child(2) p:nth-child(3){ 
+    position: relative;
+    bottom: 30px;
+}
+
+.categorybox .cardbox .card p:nth-child(3){
+    width: 60%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #5E6282;
+}
+
+.categorybox .cardbox .card:nth-child(1) {
+    margin: 0px 117px 0px 154px;
+}
+
+.categorybox .cardbox .card:nth-child(3) {
+    margin: 0px 118px 0px 121px;
+}
+
+.categorybox .cardbox .card:nth-child(4) {
+    margin: 0px 197px 0px 0px;
+}
+
+.destinationsbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 190px;
+}
+
+.destinationsbox .headingbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.destinationsbox .headingbox p{
+    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.destinationsbox .headingbox p:nth-child(2){
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #14183e;
+    margin-bottom: 0px;
+}
+
+.destinationsbox .cardbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinationsbox .cardbox .card {
+    -webkit-box-shadow: 0px 10px 10px -4px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 10px 10px -4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 10px 10px -4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0px 24px 0px 24px;
+    width: 315px;
+    height: 457px;
+    border-radius: 24px;
+    background-image: url(img/0dea2af2f729ce1ed845439fec05d31b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.destinationsbox .cardbox .card:nth-child(2) {
+    background-image: url(img/31df2ece259518bf27f460d18008c8bd.jpg);
+}
+
+.destinationsbox .cardbox .card:nth-child(3) {
+    background-image: url(img/4cccb9cb2dbca2e62d8b5c025a202d41.jpg);
+}
+
+.destinationsbox .cardbox .card .textbox {
+    padding: 27px 20px 0px  20px ;
+    width: 100%;
+    height: 130px;
+    border-radius: 0px 0px 24px 24px;
+    background-color: #fff;
+}
+
+.destinationsbox .cardbox .card .textbox .infobox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.destinationsbox .cardbox .card .textbox p {
+    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.destinationsbox .cardbox .card .textbox i {
+    color: #080809;
+    margin-right: 16px;
+}
+
+.nexttripbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nexttripbox .textbox {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.nexttripbox .textbox .headingbox {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.nexttripbox .textbox .headingbox p{
+    width: 50%;
+    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.nexttripbox .textbox .headingbox p:nth-child(2){
+    width: 85%;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #14183e;
+    margin-bottom: 0px;
+}
+
+.nexttripbox .textbox .cardbox {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.nexttripbox .textbox .cardbox .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px 24px 0px;
+}
+
+.nexttripbox .textbox .cardbox .card img{
+    margin-right: 24px;
+}
+
+.nexttripbox .textbox .cardbox .card .card_textbox p{
+    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 60%;
+}
+
+.nexttripbox .textbox .cardbox .card .card_textbox p:nth-child(2){
+    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+
+
 
 
