@@ -107,7 +107,6 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 18px;
-    border: 2px #000 solid;
 }
 
 .page1scroll {
@@ -451,6 +450,190 @@ main {
     font-size: 16px;
 }
 
+.testimonialsbox {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 400px;
+    margin-bottom: 96px;
+}
+
+.testimonialsbox .textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonialsbox .textbox .headingbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+    margin-bottom: 82px;
+}
+
+.testimonialsbox .textbox .headingbox p{
+    color: #5E6282;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.testimonialsbox .textbox .headingbox p:nth-child(2) {
+    width: 70%;
+    font-family: "Volkhov", serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 50px;
+    color: #14183e;
+    margin-bottom: 0px;
+}
+
+
+.testimonialsbox .textbox .circlebox {
+    display: flex;
+}
+
+.testimonialsbox .textbox .circlebox span {
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    background-color: #E5E5E5;
+    margin: 0px 12.5px;
+}
+
+.testimonialsbox .textbox .circlebox span:nth-child(1) {
+    background-color: #39425D;
+    margin: 0px 12.5px 0px 0px;
+}
+
+.logobox {
+    width: 80%;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logobox a {
+    filter: contrast(0);
+}
+
+.logobox a:nth-child(3) {
+    filter: brightness(1);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .columnsbox {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .columnsbox .column1box p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    color: #181E4B;
+}
+
+footer .columnsbox .column1box p:nth-child(2){
+    width: 60%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #5E6282;
+}
+
+footer .columnsbox .column2box {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .columnsbox .column2box .column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+footer .columnsbox .column2box .column a {
+    margin-bottom: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #5E6282;
+}
+
+footer .columnsbox .column2box .column p {
+    margin-bottom: 34px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #080809;
+}
+
+footer .columnsbox .column3box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+footer .columnsbox .column3box p {
+    margin: 26px 0px 16px 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #5E6282;
+}
+
+footer .columnsbox .column3box .socialbox {
+    display: flex;
+}
+
+footer .columnsbox .column3box .socialbox a {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #E5E5E5;
+}
+
+footer .columnsbox .column3box .socialbox a i {
+    font-size: 24px;
+}
+
+footer .columnsbox .column3box .getappbox {
+    display: flex;
+}
+
+footer .columnsbox .column3box .getappbox a img {
+    height: 35px;
+    margin-left: 8px;
+}
+
+
+.footer_tiitle {
+    margin-top: 84px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #5E6282;
+}
 
 
 
