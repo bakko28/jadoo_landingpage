@@ -30,7 +30,7 @@ body {
     gap: 4px;
     grid-template-columns: 1fr;
     grid-template-areas: 'header' 'main' 'footer' 'nav';
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -93,11 +93,11 @@ header .loginmenu .changelanguage button{
     margin-right: 0px;
 }
 
-header .background {
+.background {
     z-index: -2;
     position: absolute;
-    top: -1px;
-    right: -1px;
+    top: 0px;
+    right: 0px;
 }
 
 
